@@ -3,7 +3,7 @@ require 'tilt'
 module HandlebarsAssets
   class TiltHandlebars < Tilt::Template
     def self.default_mime_type
-      'application/javascript'
+      'text/x-handlebars'
     end
 
     def evaluate(scope, locals, &block)
